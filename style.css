@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	transition: background 0.4s ease-in-out;
+	font-family: 'ٌroboto', sans-serif;
+}
+
+a {
+	background-color: #423399;
+	color: white;
+	text-decoration: none;
+	padding: 1rem;
+}
+
+.hamburger {
+	position: fixed;
+	top: 2rem;
+	left: 2rem;
+	font-size: 2rem;
+}
+
+.phone {
+	position: fixed;
+	top: 2rem;
+	right: 2rem;
+	font-size: 2rem;
+}
+
+.logo {
+	margin: 2rem auto;
+	text-align: center;
+	font-size: 1rem;
+}
+.logo i {
+	font-size: 2rem;
+}
+.logo h2 {
+	font-weight: normal;
+	margin: 0;
+}
+
+.logo p {
+	margin: 0;
+	font-weight: bold;
+}
+
+.carousel-container {
+	overflow: hidden;
+	position: relative;
+	height: 60vh;
+	width: 100vw;
+	margin-top: 10rem;
+}
+.carousel {
+	position: absolute;
+	left: 0;
+	top: 0;
+	transform: translate(0);
+	transition: transform 0.4s ease-in-out;
+	display: flex;
+}
+
+.slide {
+	width: 100vw;
+	text-align: center;
+}
+
+.slide img {
+	width: 400px;
+	height: 400px;
+}
+
+.slide h1 {
+	font-size: 2rem;
+	margin-top: 1rem;
+}
+
+.arrow {
+	background-color: transparent;
+	position: absolute;
+	top: 40%;
+	cursor: pointer;
+	border: 0;
+	transform: translateY(-50);
+	font-size: 4rem;
+	color: rebeccapurple;
+	opacity: 0.5;
+}
+
+.right-arrow {
+	right: 2rem;
+}
+
+.left-arrow {
+	left: 2rem;
+}
+
+.footer a {
+	background-color: #423399;
+	padding: 1rem 2rem;
+	text-align: center;
+	color: white;
+	font-size: 1rem;
+	left: 0;
+	display: inline-block;
+}
+
+.footer {
+	margin: 2rem;
+	text-align: center;
+}
